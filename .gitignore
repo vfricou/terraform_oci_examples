@@ -1,0 +1,15 @@
+# Exclude history and backup files/folders
+/*\~
+/.*\~
+/.history
+/.idea
+/tags
+
+# Exclude unneeded files
+.terraform
+*.tfstate*
+*.lock.hcl*
+
+# Exclude use variables
+*.tfvars
+/.oci
