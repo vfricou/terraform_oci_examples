@@ -9,8 +9,11 @@ This permit to keep all bases configuration across multiples instances deploymen
 
 Read [base configuration README](base_configurations/README.md)
 
+## List Active compartments
+
+Read [list active compartments README](list_active_compartments/README.md)
+
 ## TODO
 
 - Compartment listing
-- Availability domain listing
 - Instance creation

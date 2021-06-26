@@ -9,7 +9,21 @@ Theses terraform configuration create required base configuration into your OCI 
 - Default security list
 - Default security group
 
-## Provider variables
+You must create a `.tfvars` file containing required [variables](#variables).
+
+## Usage
+
+```shell
+terraform init
+terraform plan -var-file=variables.tfvars
+terraform apply -var-file=variables.tfvars
+```
+
+## Variables
+### Provider variables
+
+All theses variables are required.  
+You must declare this variables in your `.tfvars`.
 
 | Variable         | Type   | Description          |
 | ---------------- | ------ | -------------------- | 
@@ -19,13 +33,18 @@ Theses terraform configuration create required base configuration into your OCI 
 | region           | string | OCI region           | 
 | private_key_path | string | SSH private key path |
 
-## Global variables
+### Global variables
+
+All theses variables are required.  
+You must declare this variables in your `.tfvars`.
 
 | Variables      | Type   | Description          |
 | -------------- | ------ | -------------------- |
 | tf_compartment | string | OCI compartment OCID |
 
-## VCN Variables
+### VCN Variables
+
+You could overwrite theses variables in your `.tfvars`.
 
 | Variables          | Type   | Default            | Description            |
 | ------------------ | ------ | ------------------ | ---------------------- |
