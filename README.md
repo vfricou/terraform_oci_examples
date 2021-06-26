@@ -13,6 +13,10 @@ Read [base configuration README](base_configurations/README.md)
 
 Read [list active compartments README](list_active_compartments/README.md)
 
+## Create instance
+
+Read [create instance README](create_instance/README.md)
+
 ## TODO
 
 - Compartment listing
