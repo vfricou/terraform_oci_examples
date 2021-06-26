@@ -9,6 +9,7 @@
 .terraform
 *.tfstate*
 *.lock.hcl*
+terraform_inv.yml
 
 # Exclude use variables
 *.tfvars
